@@ -52,7 +52,7 @@ function title() {
 		width: 80,
 		whitespaceBreak: false
 	})))
-	console.log(chalk.yellow(`\n${chalk.red('[ STORE - BOT ]')}\n\n${chalk.italic.magenta('• Author')} : ${chalk.white('Alwiiyy__')}\n${chalk.italic.magenta('• Instagram')} : ${chalk.white('@Alwiiyy__')}\n${chalk.italic.magenta('• Caption')} : ${chalk.white('Rela Bergadang Demi Mencari Cuan:v')}\n`))
+	console.log(chalk.yellow(`\n${chalk.red('[ STORE - BOT ]')}\n\n${chalk.italic.magenta('• Author')} : ${chalk.white('Isi Pake Nama Elu')}\n${chalk.italic.magenta('• Instagram')} : ${chalk.white('@ya_kali_elu_g_punya_Instagram___')}\n${chalk.italic.magenta('• Caption')} : ${chalk.white('Rela Bergadang Demi Mencari Bapak:v')}\n`))
 }
 /**
 * Uncache if there is file change;
@@ -93,7 +93,7 @@ const connectToWhatsApp = async () => {
         printQRInTerminal: true,
         logger: logg({ level: 'fatal' }),
         auth: state,
-        browser: ["MiawBotz", "Safari", "3.0"]
+        browser: ["LexxyNgentod", "Safari", "3.0"]
     })
     title()
     store.bind(lexxy.ev)
